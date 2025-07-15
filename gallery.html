@@ -27,7 +27,6 @@
             transform: scale(1.05);
         }
 
-        /* Lightbox styles */
         .lightbox {
             display: none;
             position: fixed;
@@ -69,15 +68,12 @@
                 <img src="enam.JPG" alt="Image 3" onclick="openLightbox(this.outerHTML)">
                 <img src="empat.JPG" alt="Image 4" onclick="openLightbox(this.outerHTML)">
                 <img src="lima.JPG" alt="Image 5" onclick="openLightbox(this.outerHTML)">
-                <!-- Video Thumbnail -->
                 <video controls onclick="openLightbox(this.outerHTML)">
                     <source src="videosatu.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
                 </video>
             </div>
         </center>
 
-        <!-- Lightbox -->
         <div id="lightbox" class="lightbox" onclick="closeLightbox()">
             <div id="lightbox-content" class="lightbox-content"></div>
         </div>
