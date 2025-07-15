@@ -1,0 +1,61 @@
+<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About - Awang Putra's Portfolio</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="lock.png" type="image/png" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <script src="script.js" defer></script>
+</head>
+
+<body class="about-page" onload="init()">
+
+  <nav>
+    <div class="nav-container">
+      <div class="nav-left">Awang Mohammad Putra</div>
+      <div class="nav-right">
+        <a href="index.html">Home</a>
+        <a href="education.html">Education</a>
+        <a href="achievement.html">Achievement</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+    <main class="about-section">
+    <div class="about-left">
+      <img src="profile.jpg" alt="Awang Mohammad Putra" class="profile-img" />
+    </div>
+
+    <div class="about-right">
+      <h2 onclick="toggleSection('intro')">About Awang Mohammad Putra Bin Awang Sopeian</h2>
+      <div id="intro" class="toggle-content">
+        <p>This portfolio website is made for my most admirable cousin, Awang Mohammad Putra Bin Awang Sopeian. This website is part of my Web Development Course assignment.</p>
+        <center><p>━━━━⊱⋆⊰━━━━</p></center>
+      </div>
+
+      <h3 onclick="toggleSection('background')">Professional Background</h3>
+      <div id="background" class="toggle-content">
+        <p>He is a dedicated professional from Kuching, Sarawak, currently serving as a <strong>Special Duties Officer</strong> in the <strong>Office of the Deputy Minister of Economy of Malaysia</strong>.</p>
+
+        <h4>Previous Roles:</h4>
+        <ul>
+          <li><strong>Special Administrative Officer</strong> to the Minister of Integrity & Ombudsman of Sarawak (2016–2022)</li>
+          <li><strong>Administrative Officer</strong> at DBKU, Sarawak (2015)</li>
+          <li><strong>Administrative Officer</strong> at IDFR, Ministry of Foreign Affairs (2013–2014)</li>
+        </ul>
+
+        <p>Beyond his career, he is actively involved in <strong>NGOs</strong> and leadership initiatives.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 by Dayang 'Aisyah | <span id="time"></span>
+  </footer>
+</body>
+</html>
